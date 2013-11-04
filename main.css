@@ -1,0 +1,205 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* Here reset ends*/
+
+/*____________________________________________________________________________________________________________________________*/
+
+nav{
+    float: right;
+    position: absolute;
+    width: 100%;
+    
+   }
+   a{
+    color: #369;
+    text-decoration: none;
+
+
+   }                                                /*font */
+
+nav li {
+    float:right;
+    padding-right: 1%;
+    padding-left: 1%;
+       }
+
+ #happy{
+        float:left;
+color: #369;
+
+       }
+
+nav button
+{
+    color: #369;
+    border: none;
+    font: Arial;
+    cursor: pointer;
+    background:none;
+   
+}
+body{
+    margin-top: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+#main_content
+{
+margin:0 auto 10px;
+width: 1000px;
+text-align: center;
+
+font-family:serif;                                  
+height: 100%;
+}
+h1{
+    font-size: 46px;
+    width: 75%;
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-weight: bold;
+   
+}
+#main_descrip
+{
+
+    font-weight: 500;
+    font-size: 20px;
+    margin: 1%;
+  
+   
+}
+.arrow{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 69;
+    height: 69;
+    display: none;
+}
+#main_logo{
+    width:164px;
+     height:39;
+     border: 0;
+     padding-top: 2%;
+
+}
+.logo_img
+{
+    width:180px; 
+    height:230px;
+    border: 1px solid #e8e8e8;
+    float:left;
+    margin: 15px 20px 5px;
+    background: #efefef;
+     background:-webkit-linear-gradient(top,#fff,#efefef);      /* There is no visible effect*/
+    padding-top: 2%;
+    display: block;
+    border-radius: 5px;
+
+}
+#bc{
+    margin-left: 20%;
+}
+
+
+/*below manages contents inside 3 boxes______________________________________________________________________________*/
+
+
+.tri_head
+{
+
+margin: 2px;
+color:#222;
+font-size: 22px;
+text-decoration: underline;
+color: #369;
+font-weight: bold;
+}
+
+
+.tri_mp
+{
+margin: 10px 5px 10px 5px;
+color:#222;
+font-size: 17px;
+color: #cc0000;
+font-weight: bold;
+
+}
+
+.tri_desc  /*base camp,High rise, camp fire -used by ,.....*/
+{
+margin: 20px 5px 10px 5px;
+font-size: 17px;
+color:#222;
+}
+/*hr
+{
+    clear: both;
+    background: url("img-hr.png") no-repeat;                
+    height: 20px;
+    color: transparent;
+    width:100%;
+    text-align:center;
+      
+}*/
+#stars
+{
+    width:100%;
+    clear:both;
+    height: 20px;
+    color: transparent;
+      display: block;
+      text-align: center;
+      padding-top: 30px;
+}
