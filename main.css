@@ -90,47 +90,63 @@ body{
     margin-top: 20px;
     text-align: center;
     background-color: #fff;
+    height: 100%;
 }
 #main_content
 {
-margin:0 auto 10px;
-width: 1000px;
+margin:10px auto 10px;
+width:825px;
 text-align: center;
-
 font-family:serif;                                  
-height: 100%;
+height: 165px;
 }
+
 h1{
     font-size: 46px;
-    width: 75%;
     margin-left: 10%;
     margin-top: 1%;
     margin-bottom: 1%;
-    font-weight: bold;
+    font-weight: 600;
+
    
 }
 #main_descrip
 {
 
     font-weight: 500;
-    font-size: 20px;
-    margin: 1%;
+    font-size: 19px;
+    margin: 2%;
+    height: 20px;
+    width: 825px;
   
    
 }
 .arrow{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    width: 69;
-    height: 69;
+    position: absolute;
     display: none;
+
+
+}
+#bc_arrow{
+ 
+  top:245px;
+  left: 490px;
+
+}
+#hr_arrow{
+top:245px;
+left:715px;
+}
+#cf_arrow{
+top:250px;
+left: 780px;
 }
 #main_logo{
     width:164px;
      height:39;
      border: 0;
-     padding-top: 2%;
+     margin-top: 2.5%;
+     
 
 }
 .logo_img
@@ -139,21 +155,21 @@ h1{
     height:230px;
     border: 1px solid #e8e8e8;
     float:left;
-    margin: 15px 20px 5px;
+    margin: 35px 20px 5px;
     background: #efefef;
-     background:-webkit-linear-gradient(top,#fff,#efefef);      /* There is no visible effect*/
+    background:-webkit-linear-gradient(top,#fff,#efefef);      
     padding-top: 2%;
     display: block;
     border-radius: 5px;
 
+
 }
 #bc{
-    margin-left: 20%;
+    margin-left: 18%;
 }
 
 
 /*below manages contents inside 3 boxes______________________________________________________________________________*/
-
 
 .tri_head
 {
@@ -183,23 +199,15 @@ margin: 20px 5px 10px 5px;
 font-size: 17px;
 color:#222;
 }
-/*hr
-{
-    clear: both;
-    background: url("img-hr.png") no-repeat;                
-    height: 20px;
-    color: transparent;
-    width:100%;
-    text-align:center;
-      
-}*/
+
 #stars
 {
     width:100%;
     clear:both;
-    height: 20px;
+    height: 35px;
     color: transparent;
-      display: block;
-      text-align: center;
-      padding-top: 30px;
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 40px;
 }
