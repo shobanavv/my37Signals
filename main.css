@@ -63,8 +63,7 @@ nav{
     text-decoration: none;
 
 
-   }                                                /*font */
-
+   }                                              
 nav li {
     float:right;
     padding-right: 1%;
@@ -73,13 +72,13 @@ nav li {
 
  #happy{
         float:left;
-color: #369;
+color: #999;
 
        }
 
 nav button
 {
-    color: #369;
+    color: #18afe0;
     border: none;
     font: Arial;
     cursor: pointer;
@@ -94,60 +93,73 @@ body{
 }
 #main_content
 {
-margin:10px auto 10px;
-width:825px;
+margin: auto;
+width: 80%;
 text-align: center;
-font-family:serif;                                  
-height: 165px;
+font-family:"Times New Roman", georgia,serif ;
 }
 
-h1{
-    font-size: 46px;
+.center_text h1{
+    font-size: 45px;
+    width: 80%;
     margin-left: 10%;
     margin-top: 1%;
     margin-bottom: 1%;
-    font-weight: 600;
-
-   
+    font-weight:500;
+    font-style: normal;
+    text-align: center;
+    color: #232323;
 }
-#main_descrip
-{
+.center_hover_text h1{
+    font-size: 40px;
+}
 
+
+.descrip{
     font-weight: 500;
-    font-size: 19px;
-    margin: 2%;
-    height: 20px;
-    width: 825px;
-  
+    margin: 1% 10% 3% 10%;
+    text-align: center;
+    width: 80%;
+    font-size: 18px;
+      height:30%;
+
+}
+.highlight{
+    text-decoration: underline;
+    color: #369;
+
+}
+.arrow_left{
    
+    margin-top: -140px;
+   margin-left: 130px;
+   position:absolute;
+  
 }
-.arrow{
-    position: absolute;
-    display: none;
-
-
+/*#bc_arrow{
+margin-top: 3%;
+margin-right: 2%;
+}*/
+.arrow_right{
+    
 }
-#bc_arrow{
- 
-  top:245px;
-  left: 490px;
-
-}
-#hr_arrow{
-top:245px;
-left:715px;
-}
+/*#hr_arrow{
+    margin-top: 3%;
+   margin-right: 2%;
+}*/
 #cf_arrow{
-top:250px;
-left: 780px;
+     position:absolute;
+    margin-top: -145px;
+   margin-left: -20px;
 }
+
+
 #main_logo{
     width:164px;
      height:39;
      border: 0;
-     margin-top: 2.5%;
-     
-
+     margin-top: 5%;
+     text-align: center;
 }
 .logo_img
 {
@@ -155,17 +167,16 @@ left: 780px;
     height:230px;
     border: 1px solid #e8e8e8;
     float:left;
-    margin: 35px 20px 5px;
+    margin: 15px 20px 5px;
     background: #efefef;
-    background:-webkit-linear-gradient(top,#fff,#efefef);      
+     background:-webkit-linear-gradient(top,#fff,#efefef);      
     padding-top: 2%;
     display: block;
     border-radius: 5px;
 
-
 }
 #bc{
-    margin-left: 18%;
+    margin-left: 20%; 
 }
 
 
@@ -193,21 +204,27 @@ font-weight: bold;
 
 }
 
-.tri_desc  /*base camp,High rise, camp fire -used by ,.....*/
+.tri_desc  
 {
 margin: 20px 5px 10px 5px;
 font-size: 17px;
 color:#222;
 }
+.tabs{
+    margin:auto;
+    margin-bottom: 1px;
+     margin-top:2%;
 
+
+}
 #stars
 {
-    width:100%;
+    
     clear:both;
-    height: 35px;
+    height: 4%;
     color: transparent;
     display: block;
     text-align: center;
-    padding-top: 30px;
-    padding-left: 40px;
+    padding-top:2%  ;
+
 }
