@@ -1,16 +1,28 @@
 $(document).ready(function() { 
     // Happy Day message
-    $("#happy").val('Happy Sunday');
+ /* var day = new Date();
+         var weekday=new Array[7];
+         weekday[0]="Sunday";
+         weekday[1]="Monday";
+         weekday[2]="Tuesday";
+         weekday[3]="Wednesday";
+         weekday[4]="Thursday";
+         weekday[5]="Friday";
+         weekday[6]="Saturday";
+         $('#happy').push(weekday[day.getDday()]);  */
 
-    $(".navi li a").hover(function(){
+/* $(".navi").hover(function(){
         $(this).css('color','#18afe0');
-    },function(){
+    },function(){                                                   //This part changes navigation text color on hover over.
         $(this).css('color','#369');
 
-    });
+    });  */
+
+
+
     $(".navi button").hover(function(){
         $(this).css('color','#369');
-    },function(){
+    },function(){                                               //This part changes button color on hover.
         $(this).css('color','#18afe0');
 
     });
