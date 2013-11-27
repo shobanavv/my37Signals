@@ -1,7 +1,7 @@
 $(document).ready(function() { 
     // Happy Day message
   var day = new Date();
-         var weekday=new Array[7];
+         var weekday=new Array();
          weekday[0]="Sunday";
          weekday[1]="Monday";
          weekday[2]="Tuesday";
