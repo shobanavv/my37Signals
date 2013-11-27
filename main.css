@@ -74,13 +74,12 @@ nav li {
        }
 
 a.nav_hover:hover {
-    color: color: #18afe0;
+    color:#18afe0;
     }
 
 nav button {
     color: #18afe0;
     border: none;
-    font: Arial;
     cursor: pointer;
     background:none;
    
