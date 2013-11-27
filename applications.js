@@ -1,6 +1,6 @@
 $(document).ready(function() { 
     // Happy Day message
- /* var day = new Date();
+  var day = new Date();
          var weekday=new Array[7];
          weekday[0]="Sunday";
          weekday[1]="Monday";
@@ -9,16 +9,7 @@ $(document).ready(function() {
          weekday[4]="Thursday";
          weekday[5]="Friday";
          weekday[6]="Saturday";
-         $('#happy').push(weekday[day.getDday()]);  */
-
-/* $(".navi").hover(function(){
-        $(this).css('color','#18afe0');
-    },function(){                                                   //This part changes navigation text color on hover over.
-        $(this).css('color','#369');
-
-    });  */
-
-
+     $("#happy").push(weekday[day.getDay()]);  
 
     $(".navi button").hover(function(){
         $(this).css('color','#369');
