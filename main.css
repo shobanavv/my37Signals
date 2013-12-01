@@ -91,36 +91,40 @@ body {
     }
 
 #main_content {
-margin: auto;
-width: 80%;
+margin: 0 auto 30px;
+width: 900px;
 text-align: center;
 font-family:"Times New Roman", georgia,serif ;
 height: 100%;
     }
 
-.center_text h1 {
-    font-size: 45px;
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    font-weight:500;
+.center_text h2 {
+    font-size: 55px;
+    width: 900px;
+    margin:10px auto;
+    font-weight:550;
     font-style: normal;
     text-align: center;
     color: #232323;
+    min-height: 120px;
+    overflow: auto;
   }
 
-.center_hover_text h1 {
+.center_hover_text h2 {
     font-size: 45px;
   }
-
 .descrip {
-    font-weight: 500;
+    font-weight: 600;
     margin:auto;
     text-align: center;
-    width: 80%;
+    width: 900px;
     font-size: 18px;
     height: 50px;
+    overflow: auto;
+ }
+.hover_desc {
+    font-weight: 500;
+
   }
 
 .highlight{
